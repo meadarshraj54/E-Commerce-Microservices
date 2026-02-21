@@ -1,0 +1,27 @@
+# IDE
+.idea/
+.vscode/
+
+# Node
+node_modules/
+dist/
+
+# Java
+target/
+*.log
+
+# Docker volumes / databases
+volume-data/
+docker/mysql/data/
+mysql/
+*.sock
+*.ibd
+*.ibt
+*.frm
+*.log
+binlog.*
+auto.cnf
+
+# OS
+.DS_Store
+Thumbs.db

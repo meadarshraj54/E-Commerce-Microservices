@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS inventory (
+    `id` BIGINT NOT NULL AUTO_INCREMENT,
+    `sku_code` VARCHAR(255) NOT NULL,
+    `quantity` INT DEFAULT NULL,
+    PRIMARY KEY (`id`)
+);
