@@ -19,6 +19,8 @@ import {OrderService} from "../../services/order/order.service";
   ],
   styleUrl: './home-page.component.css'
 })
+
+
 export class HomePageComponent implements OnInit {
   private readonly oidcSecurityService = inject(OidcSecurityService);
   private readonly productService = inject(ProductService);
